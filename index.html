@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Lịch khám sức khoẻ công ty</title>
+  <link rel="icon" href="favicon.ico?v=2" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: #fff;
+      color: #000;
+      font-family: 'Inter', system-ui, Arial, sans-serif;
+    }
+    #loader {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+      background: #fff;
+      position: absolute;
+      top: 0; left: 0;
+      z-index: 1;
+    }
+    iframe {
+      width: 100vw;
+      height: 100vh;
+      border: none;
+      display: block;
+      background: #fff;
+      color-scheme: only light;
+    }
+  </style>
+</head>
+<body>
+  <div id="loader">...</div>
+  <iframe src="https://script.google.com/macros/s/AKfycbymLw3zUu5ItO_xY2MaaDWuqBB39d6xQVwXBsW_NBVKIyGP-W-vc8d3rixqbI2ttlmT/exec" onload="document.getElementById('loader').style.display='none'"></iframe>
+</body>
+</html>
